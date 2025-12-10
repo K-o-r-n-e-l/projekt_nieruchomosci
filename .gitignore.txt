@@ -1,0 +1,16 @@
+# Ignoruj środowisko wirtualne
+.venv/
+__pycache__/
+
+# Ignoruj pliki konfiguracyjne Spydera
+.spyproject/
+.spyderproject
+.spyder-py3/
+
+# Ignoruj dane (zazwyczaj nie trzymamy dużych CSV na GitHubie)
+data/*.csv
+data/*.xlsx
+
+# Ignoruj pliki systemowe
+.DS_Store
+Thumbs.db
